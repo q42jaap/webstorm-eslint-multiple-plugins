@@ -1,0 +1,10 @@
+{
+  "name": "eslint-test",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-plugin-mocha": "^4.8.0"
+  }
+}
