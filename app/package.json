@@ -1,10 +1,18 @@
 {
   "name": "eslint-test",
   "scripts": {
+    "build": "webpack",
     "lint": "eslint ."
   },
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
     "eslint": "^3.16.0",
-    "eslint-plugin-babel": "^4.0.1"
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-plugin-babel": "^4.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }

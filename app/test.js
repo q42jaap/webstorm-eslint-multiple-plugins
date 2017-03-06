@@ -1,1 +1,3 @@
-const obj = { foo: "bar" };
+import _ from 'lodash';
+
+_.forEach([], x => {});
